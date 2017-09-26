@@ -39,7 +39,7 @@ app.delete('/:id', function(req, res){
 	});
 });
 
-app.post('/:id/update', function(req, res){
+app.post('/:id', function(req, res){
 	var id = req.params.id;
 
 	productService.update(id, req.body, function (err, result) {
@@ -51,7 +51,7 @@ app.post('/:id/update', function(req, res){
 	});
 });
 
-app.put('/create', function(req, res){
+app.put('/', function(req, res){
 	
 	productService.create(req.body, function (err, result) {
 		if (err) {

@@ -39,8 +39,6 @@ function create(json, callBack) {
   order.save(order, callBack);
 }
 
-function 
-
 function update(id, json, callBack) {
   console.log("Updating order with id: " + id);
 
