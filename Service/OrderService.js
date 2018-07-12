@@ -1,6 +1,6 @@
 var order = require('../Model/Order'); 
 
-var productService = require('./productService');
+var productService = require('./ProductService');
 
 var OrderModel = order.orderModel;
 

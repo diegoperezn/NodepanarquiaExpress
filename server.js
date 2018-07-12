@@ -11,7 +11,7 @@ var bodyParser = require('body-parser');
 function iniciar(route) {
 	app.use(bodyParser.json());
 
-	//app.use('/products', productController.app);
+	app.use('/products', productController.app);
 	app.use('/category', categoryController.app);
 	app.use('/user', userController.app);
 	app.use('/order', orderController.app);
