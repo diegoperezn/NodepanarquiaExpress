@@ -5,7 +5,7 @@ var ProductModel = product.productModel;
 //var PriceModel = productPrice.priceModel;
 
 function findAll(callBack) {
-  console.log("Retrieving all products");
+  console.log("Retrieving aaaaall products");
 
   ProductModel.find({}, callBack);
 }
